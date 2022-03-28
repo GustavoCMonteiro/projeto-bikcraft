@@ -1,0 +1,57 @@
+.seletor{
+  padding: 60px 0px;
+}
+.seletor h2{
+  text-transform: lowercase;
+  margin-bottom: 40px;
+}
+
+.seletor-grid{
+  display: flex;
+  gap: 40px;
+  padding: 0px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.seletor-grid li{
+  min-width: 280px;
+}
+
+.seletor-grid h3{
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.seletor-grid h3::before{
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+  transition: 0.2s;
+}
+
+.seletor-grid a:hover h3::before{
+  width: 24px
+}
+
+.seletor-grid span{
+  margin-left: 20px;
+}
+
+.seletor-grid a{
+  display: block;
+}
+
+@media (max-width: 800px){
+  .seletor{
+    padding: 30px 0px;
+  }
+  .seletor-grid{
+    gap: 20px;
+}
+}

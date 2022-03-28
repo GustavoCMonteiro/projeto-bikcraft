@@ -1,0 +1,26 @@
+.politica{
+  margin: 80px 0px 80px 220px;
+  max-width: 760px;
+}
+
+.politica h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.politica p{
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1200px){
+  .politica{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 800px){
+  .politica{
+    margin-right: 60px;
+  }
+}
